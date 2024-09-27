@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+<body>
+    <!-- navbar -->
+    <div class="main">
+       <header>
+         <div class="top-header">
+        
+                 <img src="./img/w-logo.webp" alt="" class="">
+        
+    
+            <div class="header-search d-none d-md-flex">
+                <i class='bx bx-search-alt-2 '></i>
+                <p class="">Search for Wonderlove</p>
+            </div>
+            <div class="header-icons d-none d-md-flex">
+                <i class='bx bx-heart'></i>
+                <i class='bx bx-shopping-bag'></i>
+                <p>Sign in</p>
+            </div>
+          
+         </div>
+         <label for="menuToggle" class="menu-button" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+             <i class='bx bx-menu icons d-md-none'></i>
+         </label>
+         <div class="menubar bg-light py-5 collapse"  id="collapseExample">
+          <ul class="">
+            <li class="d-flex justify-content-between px-2 py-1">Woman <i class='bx bxs-chevron-down'></i></li>
+            <li class="d-flex justify-content-between px-2 py-1">Man <i class='bx bxs-chevron-down'></i></li>
+            <li class="d-flex justify-content-between px-2 py-1">Kids <i class='bx bxs-chevron-down'></i></li>
+            <li class="d-flex justify-content-between px-2 py-1">Beauty <i class='bx bxs-chevron-down'></i></li>
+            <li class="d-flex justify-content-between px-2 py-1">Home <i class='bx bxs-chevron-down'></i></li>
+            <li class="d-flex justify-content-between px-2 py-1">Brand <i class='bx bxs-chevron-down'></i></li>
+            <li class="d-flex justify-content-between px-2 py-1">W-style </i></li>
+            <li class="d-flex justify-content-between px-2 py-1">view more</li>
+            
+            <br> <br>
+            <li class="d-flex justify-content-between px-2 py-1">About us</li>
+            <li class="d-flex justify-content-between px-2 py-1">Westside club</li>
+            <li class="d-flex justify-content-between px-2 py-1">W-style</li>
+            <li class="d-flex justify-content-between px-2 py-1">Gift card</li>
+            <li class="d-flex justify-content-between px-2 py-1">Contact us</li>
+            <li class="d-flex justify-content-between px-2 py-1">Store Locator</li>
+          <br><br><br><br>
+          <ul class="d-flex justify-content-evenly">
+            <li class=""><i class='bx bx-home' ></i> Home</li>
+            <li class=""><i class='bx bx-user'></i>User profile</li>
+          </ul>
+          <br>
+  
+          
+          </ul>
+        
+  
+         </div>
+         <div class="bottom-header d-none d-md-block">
+          <ul class="navlist">
+            <li>Woman <i class='bx bxs-chevron-down'></i></li>
+            <li>Man <i class='bx bxs-chevron-down'></i></li>
+            <li>Kids <i class='bx bxs-chevron-down'></i></li>
+            <li>Beauty <i class='bx bxs-chevron-down'></i></li>
+            <li>Home <i class='bx bxs-chevron-down'></i></li>
+            <li>Brand <i class='bx bxs-chevron-down'></i></li>
+            <li>W-style </i></li>
+            <li>view more</li>
+  
+          </ul>
+         </div>
+       </header>
+  
+
+
+          <div class="home-images">
+              <div id="carouselExampleAutoplaying" class="carousel slide"   data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- For large and medium screens -->
+                  <img src="./img/C1_01_1920X900_ETHNIC_GROUP.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+      
+                   <!-- For small screens (less than medium) -->
+                   <img src="./img/C1_01_380X676_ETHNIC_GROUP.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                </div>
+               
+                <div class="carousel-item">
+                    <!-- For large and medium screens -->
+                  <img src="./img/C1_03_1920X900_ETHNIC_SUITS.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+      
+                  <!-- For small screens (less than medium) -->
+                  <img src="./img/C1_03_380X676_ETHNIC_SUITS.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                </div>
+                <div class="carousel-item">
+                  <!-- For large and medium screens -->
+                <img src="./img/C1_05_1920X900_PRINT_STORY.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+      
+                <!-- For small screens (less than medium) -->
+                <img src="./img/C1_05_380X676_BOHO_TRENDS.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+              </div>
+              <div class="carousel-item">
+                  <!-- For large and medium screens -->
+                <img src="./img/C1_06_1920X900_SHOP_KURTAS.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+      
+                <!-- For small screens (less than medium) -->
+                <img src="./img/C1_06_380X676_ETHNIC_KURTAS.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+              </div>
+              <div class="carousel-item">
+              <!-- For large and medium screens -->
+              <img src="./img/C1_11_1920X900_KIDS.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+      
+              <!-- For small screens (less than medium) -->
+              <img src="./img/C1_11_380X676_KIDS.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+              </div>
+              <div class="carousel-item">
+                  <!-- For large and medium screens -->
+                  <img src="./img/C1_08_1920X900_BOTTOMWEAR.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+          
+                  <!-- For small screens (less than medium) -->
+                  <img src="./img/C1_08_380X676_BOTTOMWEAR.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                  </div>
+                
+              </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+              <div class=" v-boxes">
+                <ul>
+                  <li style="  writing-mode: vertical-rl;
+                               transform: rotate(180deg);  " class="-2">Ethinic</li>
+                  <li> <i class='bx bxs-square text-dark ms-1 box-item'></i></li>
+                  <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                  <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                  <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                  <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                  <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+      
+                 
+                </ul>
+            </div>
+       
+            </div>
+          
+              <div class="women">
+                <div id="carouselExampleAutoplaying2" class="carousel slide"   data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <!-- For large and medium screens -->
+                    <img src="./img/C3_01_1920X900_BEST_OF_AUTUMN.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                     <!-- For small screens (less than medium) -->
+                     <img src="./img/C3_01_380X676_BEST_OF_AUTUMN.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                  </div>
+                 
+                  <div class="carousel-item">
+                      <!-- For large and medium screens -->
+                    <img src="./img/C3_02_1920X900_DRESS_SHOP.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                    <!-- For small screens (less than medium) -->
+                    <img src="./img/C3_02_380X676_DRESS_SHOP.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                  </div>
+                  <div class="carousel-item">
+                    <!-- For large and medium screens -->
+                  <img src="./img/C3_03_1920X900_FORMALS.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                  <!-- For small screens (less than medium) -->
+                  <img src="./img/C3_03_380X676_FORMALS.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                </div>
+                <div class="carousel-item">
+                    <!-- For large and medium screens -->
+                  <img src="./img/C3_04_1920X900_FOOTWEAR.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                  <!-- For small screens (less than medium) -->
+                  <img src="./img/C3_04_380X676_FOOTWEAR.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                </div>
+                <div class="carousel-item">
+                <!-- For large and medium screens -->
+                <img src="./img/C3_05_1920X900_LATEST_TRENDS.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                <!-- For small screens (less than medium) -->
+                <img src="./img/C3_05_380X676_LATEST_TRENDS.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                </div>
+                <div class="carousel-item">
+                    <!-- For large and medium screens -->
+                    <img src="./img/C3_11_1920X900_BOTTOMWEAR.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+            
+                    <!-- For small screens (less than medium) -->
+                    <img src="./img/C3_11_380X676_BOTTOMWEAR.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                    </div>
+                  
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                <div class=" v-boxes">
+                  <ul>
+                    <li style="  writing-mode: vertical-rl;
+                                 transform: rotate(180deg);  " class="-2">Woman</li>
+                    <li> <i class='bx bxs-square  text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-dark ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+        
+                   
+                  </ul>
+              </div>
+         
+              </div>
+              <div class="man">
+                <div id="carouselExampleAutoplaying3" class="carousel slide"   data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <!-- For large and medium screens -->
+                    <img src="./img/C2_02_1920X900_CASUALSHIRTS.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                     <!-- For small screens (less than medium) -->
+                     <img src="./img/C2_02_380X676_CASUAL_BOTTOMS.jpg" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                  </div>
+                 
+                  <div class="carousel-item">
+                      <!-- For large and medium screens -->
+                    <img src="./img/C2_01_1920X900_SHOP_ALL.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                    <!-- For small screens (less than medium) -->
+                    <img src="./img/C2_01_380X676_SHOP_ALL_4c2bd19f-05f6-462f-a0d0-4101bee13853.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                  </div>
+                  <div class="carousel-item">
+                    <!-- For large and medium screens -->
+                  <img src="./img/C2_04_1920X900_DENIM.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                  <!-- For small screens (less than medium) -->
+                  <img src="./img/C2_04_380X676_DENIM_07641fad-22d7-4d8e-be68-009b464822e4.jpg" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                </div>
+                <div class="carousel-item">
+                    <!-- For large and medium screens -->
+                  <img src="./img/C2_05_1920X900_KNITS.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                  <!-- For small screens (less than medium) -->
+                  <img src="./img/C2_05_380X676_KNITS.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                </div>
+                <div class="carousel-item">
+                <!-- For large and medium screens -->
+                <img src="./img/C2_06_1920X900_FOOTWEAR.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                <!-- For small screens (less than medium) -->
+                <img src="./img/C2_06_380X676_FOOTWEAR.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                </div>
+                <div class="carousel-item">
+                    <!-- For large and medium screens -->
+                    <img src="./img/C2_07_1920X900_SPORTY_ESSENTIALS.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+            
+                    <!-- For small screens (less than medium) -->
+                    <img src="./img/C2_07_380X676_SPORTY_ESSENTIALS.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                    </div>
+                  
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                <div class=" v-boxes">
+                  <ul>
+                    <li style="  writing-mode: vertical-rl;
+                                 transform: rotate(180deg);  " class="-2">Man</li>
+                    <li> <i class='bx bxs-square  text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-dark  ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+        
+                   
+                  </ul>
+              </div>
+         
+              </div>
+              <div class="beauty">
+                <div id="carouselExampleAutoplaying4" class="carousel slide"   data-bs-ride="carousel">
+                <div class="carousel-inner">
+                 
+                 
+                  <div class="carousel-item ">
+                      <!-- For large and medium screens -->
+                    <img src="./img/C4_01_1920X900_BATH_BODY.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                    <!-- For small screens (less than medium) -->
+                    <img src="./img/C4_01_380X676_BATH_BODY.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                  </div>
+                  <div class="carousel-item active">
+                    <!-- For large and medium screens -->
+                  <img src="./img/C4_02_1920X900_FRAGRANCE.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                  <!-- For small screens (less than medium) -->
+                  <img src="./img/C4_02_1920X900_FRAGRANCE_1.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                </div>
+                <div class="carousel-item ">
+                    <!-- For large and medium screens -->
+                  <img src="./img/C4_03_1920X900_SHOP_BEAUTY.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                  <!-- For small screens (less than medium) -->
+                  <img src="./img/C4_03_380X676_SHOP_BEAUTY.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                </div>
+               
+                  
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                <div class=" v-boxes">
+                  <ul>
+                    <li style="  writing-mode: vertical-rl;
+                                 transform: rotate(180deg);  " class="-2">Beauty</li>
+                    <li> <i class='bx bxs-square  text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-dark ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+        
+                   
+                  </ul>
+              </div>
+         
+              </div>
+              <div class="home">
+                <div id="carouselExampleAutoplaying5" class="carousel slide"   data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <!-- For large and medium screens -->
+                    <img src="./img/Home-Gifting-web.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                     <!-- For small screens (less than medium) -->
+                     <img src="./img/Home-gifting-app.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                  </div>
+                 
+                  <div class="carousel-item">
+                      <!-- For large and medium screens -->
+                    <img src="./img/C5_01_1920X900_SHOP_BED_f4c480bb-e4f9-456d-8969-2b4a71458c89.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                    <!-- For small screens (less than medium) -->
+                    <img src="./img/C5_01_380X676_BED_a24962d9-a614-49e8-a1fb-8ecc7aa50886.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                  </div>
+                  <div class="carousel-item">
+                    <!-- For large and medium screens -->
+                  <img src="./img/C5_03_1920X900_SHOP_LIVING_e9ea112c-ecf0-41fa-b4a0-a13442b2a760.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                  <!-- For small screens (less than medium) -->
+                  <img src="./img/C5_03_380X676_SHOP_LIVING_1375f5a9-e525-455c-a311-6507198328f0.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                </div>
+                <div class="carousel-item">
+                    <!-- For large and medium screens -->
+                  <img src="./img/C5_04_1920X900_SHOPBATH_ae927977-8bf7-4ce1-b074-6d0d8865152e.webp" class="img-fluid d-none d-md-block w-100" alt="Large Screen Image">
+        
+                  <!-- For small screens (less than medium) -->
+                  <img src="./img/C5_04_380X676_SHOP_BATH_bc11533d-942d-4315-a7b3-417e6b08a82d.webp" class="img-fluid d-md-none w-100" alt="Small Screen Image">
+                </div>
+               
+                  
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying5" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying5" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                <div class=" v-boxes">
+                  <ul>
+                    <li style="  writing-mode: vertical-rl;
+                                 transform: rotate(180deg);  " class="-2">Home</li>
+                    <li> <i class='bx bxs-square  text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square  text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-dark ms-1 box-item'></i></li>
+                    <li> <i class='bx bxs-square text-secondary ms-1 box-item'></i></li>
+        
+                   
+                  </ul>
+              </div>
+         
+              </div>
+              <div class="banner">
+                <img src="./img/WS_Web_Hero_Banner_04_2945ec97-3eb4-4ddd-a080-a58c64aac7d1.webp" alt="" class="w-100 img-fluid d-none d-md-block">
+                <img src="./img/L1_Category_380x676_06_ff451885-a5bb-46c8-a5bc-8e0482dda81c.webp" alt="" class="w-100 img-fluid  d-md-none">
+              
+              </div>
+              <br> 
+              <hr class="d-none d-md-block">
+              <br>
+          <footer>
+            <div class="flexbox d-none d-md-flex">
+             
+              <ul>
+                <li>DOWNLOAD THE APP</li>
+                <li class="pt-3"><img src="./img/Frame_2.svg" alt=""></li>
+          
+                <li class="pt-3"><img src="./img/Frame_3.svg" alt=""></li>
+
+              </ul>
+              <ul>
+                <li class="foot-head">SHOP</li>
+                <li class="pt-2"><a href="#woman">Woman</a></li>
+                <li class="pt-2"><a href="#man">Man</a></li>
+                <li class="pt-2"><a href="#kids">Kids</a></li>
+                <li class="pt-2"><a href="#woman">Beauty</a></li>
+                <li class="pt-2"><a href="#woman">Home</a></li>
+
+              </ul>
+              <ul>
+                <li class="foot-head">Sites & Stores</li>
+                <li class="pt-2"><a href="">About Us</a></li>
+                <li class="pt-2"><a href="">Contact Us</a></li>
+                <li class="pt-2"><a href="">Store Locator</a></li>
+                <li class="pt-2"><a href="">Media Center</a></li>
+                <li class="pt-2"><a href="">Sitemap</a></li>
+                <li class="pt-2"><a href="">Membership</a></li>
+
+              </ul>
+              <ul>
+                <li class="foot-head ">JOIN OUR NEWSLETTER</li>
+                <p class="pt-3 text-secondary ">Get the latest update from our stores.</p>
+                <input type="text" name="" id="" placeholder="Email id" class="email pt-3">
+                <br><br>
+                 <li>                <a href="" class="sub-btn">SUBSCRIBE</a></li>
+              </ul>
+            </div>
+            <div class="small-div-footer d-md-none">
+              <h5>JOIN OUR NEWSLETTER</h5>
+                <input type="text" name="" id="" placeholder="Email id" class="email pt-3">
+                <br>
+                <a href="" class="sub-btn " >SUBSCRIBE</a>
+
+                <br>
+                <br>
+              <h5>Follow Us On</h5>
+              <div class="right-footer">
+                <i class="fa-brands fa-x-twitter twt"></i>
+                <i class="fa-brands fa-facebook-f fb"></i>
+                <i class="fa-brands fa-instagram insta"></i>
+                <i class="fa-brands fa-youtube yt"></i>
+              </div>
+              <h5>Download Our Mobile App </h5>
+              <br>
+              <div class="images-footer">  
+                <img src="./img/Frame_2.svg" alt=""  width="130px ">
+          
+                <img src="./img/Frame_3.svg" alt="" width="130px" ></div>
+
+
+
+            </div>
+            <br> 
+            <hr class="d-none d-md-block" >
+            <br>
+            <div class="low-footer d-none d-md-flex">
+              <div class="left-footer">
+                <a href="">TERMS & CONDITIONS</a>
+                <a href="">PRIVACY POLICY</a>
+                <a href="">RETURN POLICY</a>
+
+              </div>
+              <div class="right-footer">
+                <i class="fa-brands fa-x-twitter twt"></i>
+                <i class="fa-brands fa-facebook-f fb"></i>
+                <i class="fa-brands fa-instagram insta"></i>
+                <i class="fa-brands fa-youtube yt"></i>
+              </div>
+
+            </div>
+          
+          </footer>
+          <div class="sticky-small-footer d-md-none">
+            <div class="icon-div text-center " style="border-top: 2px solid black;
+            padding-top: 15px;color: black;">
+              <i class="fa-solid fa-house"></i>
+              <p>Home</p>
+            </div>
+            <div class="icon-div text-center">
+              <i class='bx bxs-category'></i>
+              <p>Categories</p>
+            </div>
+            <div class="icon-div text-center">
+              <i class='bx bx-search-alt-2 '></i>
+              <p>Search</p>
+            </div>
+            <div class="icon-div text-center">
+              <i class='bx bx-shopping-bag'></i>
+              <p>Bag</p>
+            </div>
+            <div class="icon-div text-center">
+              <i class='bx bxs-user'></i>
+              <p>Profile</p>
+            </div>
+           </div>
+
+         
+      </div>
+      
+
+        
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
